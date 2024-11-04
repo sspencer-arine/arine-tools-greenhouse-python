@@ -1,0 +1,91 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+    "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+    "cSpell.fixSpellingWithRenameProvider": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "other": "off",
+      "strings": "off"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "on"
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "autoDocstring.docstringFormat": "sphinx",
+  "black-formatter.importStrategy": "fromEnvironment",
+  "editor.formatOnSave": true,
+  "editor.rulers": [72, 80, 88, 98, 120, 150],
+  "files.exclude": {
+    "**/*.egg-info": true,
+    "**/.aws-sam": true,
+    "**/.coverage*": true,
+    "**/.eggs": true,
+    "**/.hypothesis": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/.serverless": true,
+    "**/.tox": true,
+    "**/.venv": true,
+    "**/Pipfile.lock": true,
+    "**/__pycache__": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/tmp": true,
+    "**/venv": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.aws-sam/**": true,
+    "**/.coverage": true,
+    "**/.eggs/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.hypothesis/**": true,
+    "**/.mypy_cache/**": true,
+    "**/.pytest_cache/**": true,
+    "**/.serverless/**": true,
+    "**/.tox/**": true,
+    "**/.venv/**": true,
+    "**/Pipfile.lock": true,
+    "**/build/**": true,
+    "**/dist/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/venv/**": true
+  },
+  "flake8.importStrategy": "fromEnvironment",
+  "isort.importStrategy": "fromEnvironment",
+  "mypy-type-checker.importStrategy": "fromEnvironment",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.indexing": true,
+  "python.analysis.typeCheckingMode": "standard",
+  "rewrap.autoWrap.enabled": true,
+  "rewrap.wrappingColumn": 120,
+  "cSpell.words": ["browsercookie", "geckodriver", "pdfjs", "readystate"]
+}
